@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "perfil-3",
+    "slug": "perfil-3",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-m.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon-m.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.jorperez77.perfil3"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff",
+          "image": "./assets/splash-icon-m.png",
+          "imageWidth": 220,
+          "resizeMode": "cover"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "dac69903-25f2-42a9-b280-db5cf79e0761"
+      }
+    }
+  }
+}
